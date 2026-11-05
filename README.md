@@ -16,6 +16,11 @@ npx expo start
 4. Ensure the dependency versions in `package.json` are selected.
 5. Test Android, iOS and Web previews, then use Share to copy the Snack URL.
 
+## Deploy to Vercel
+1. Import this GitHub repository into Vercel.
+2. Keep the build command as `npm run build` and the output directory as `dist` (configured in `vercel.json`).
+3. Deploy the project. New pushes to `main` will trigger a redeployment when Git integration is enabled.
+
 ## Implementation notes
 - React Context + reducer centralizes cart state.
 - Product `+` / `−` is a single toggle action.
