@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Daily Basket",
+    "slug": "daily-basket-cross-platform",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "web": { "bundler": "metro" }
+  }
+}
